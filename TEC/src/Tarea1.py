@@ -82,8 +82,8 @@ PERIOD_US = 1000 # Periodo de muestreo en microsegundos
 BUFFER_SIZE = 10 # Muestras en el buffer
 
 def signal(t):
-  # Pon aquí el código necesario para generar tu señal.
-  return 1
+    x = math.cos(t);
+return x
 
 # ------------------------------------------------------------------------------
 # Comienza la ejecución
