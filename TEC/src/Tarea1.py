@@ -83,7 +83,7 @@ BUFFER_SIZE = 10 # Muestras en el buffer
 
 def signal(t):
     x = math.cos(t);
-return x
+    return x
 
 # ------------------------------------------------------------------------------
 # Comienza la ejecución
